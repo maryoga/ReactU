@@ -6,8 +6,8 @@ export const CounterApp = ( { value }) => {
   const [ counter, setCounter ] = useState( value );
 
   const handleAdd = () => {
-    // setCounter(counter + 1);
-    setCounter( (c) => c +  1);
+    setCounter(counter + 1);
+    // setCounter( (c) => c +  1);
   };
 
   const handleSubstract = () => setCounter( counter - 1 );
